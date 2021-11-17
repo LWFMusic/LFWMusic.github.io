@@ -33,4 +33,33 @@ body{
     width: 100%;
     height: calc(100% - 60px);
     background: url("/src/img/back.jpg");
+
+}
+.title-container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+.title-container h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.title-container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.title-container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
 }
