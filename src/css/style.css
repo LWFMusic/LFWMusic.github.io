@@ -29,3 +29,8 @@ nav {
 body{
     font-family: Arial, sans-serif;
 }
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url("/src/img/back.jpg");
+}
