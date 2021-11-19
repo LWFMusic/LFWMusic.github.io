@@ -37,7 +37,7 @@ body{
 }
 .title-container{
     float: left;
-    margin: 432px 0px 0px 404px;
+    margin: 432px 0 0 404px;
     color: blanchedalmond;
     text-align: center;
     text-shadow: 3px 3px 3px #5a4000;
@@ -61,10 +61,52 @@ body{
     background: none;
     border-radius: 5px;
     color: #fff;
-    padding: 0px 16px;
-    margin: 58px 14px 0px 14px;
+    padding: 0 16px;
+    margin: 58px 14px 0 14px;
 }
 .cases img {
-    height: 400px;
-    width: 800px;
+    margin-top: 40px;
+    float: bottom;
+    height: calc((100% - 386px*2)/2);
+    width: calc(100% - 386px*2);
+    margin-left: 386px;
+}
+.project{
+    margin-left: 386px;
+    float: left;
+}
+.project-container{
+    margin-left: 40px;
+}
+.cases h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    color: #5a4000;
+    font-weight: bold;
+}
+.cases h6{
+    text-align: center;
+}
+.cases-container h4{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #5a4000;
+    font-weight: bold;
+}
+.project-container h4{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #5a4000;
+    font-weight: bold;
+}
+.project input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid brown;
+    background: none;
+    border-radius: 5px;
+    color: brown;
+    padding: 0 16px;
+    margin: 58px 14px 0 14px;
 }
