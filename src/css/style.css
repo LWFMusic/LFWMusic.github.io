@@ -64,6 +64,9 @@ body{
     padding: 0 16px;
     margin: 58px 14px 0 14px;
 }
+.cases {
+    float: left;
+}
 .cases img {
     margin-top: 40px;
     float: bottom;
@@ -71,13 +74,7 @@ body{
     width: calc(100% - 386px*2);
     margin-left: 386px;
 }
-.project{
-    margin-left: 386px;
-    float: left;
-}
-.project-container{
-    margin-left: 40px;
-}
+
 .cases h3{
     text-align: center;
     margin-top: 40px;
@@ -88,19 +85,22 @@ body{
 .cases h6{
     text-align: center;
 }
+.project{
+    float: bottom;
+    margin-left: 386px;
+    width:  calc((100% - 386px*2)/2);
+}
 .cases-container h4{
     margin-top: 20px;
     font-size: 22px;
     color: #5a4000;
     font-weight: bold;
 }
-.project-container h4{
-    margin-top: 20px;
-    font-size: 22px;
-    color: #5a4000;
-    font-weight: bold;
+.cases-container{
+    float: left;
 }
-.project input{
+.cases-container input{
+    float: left;
     height: 40px;
     text-align: center;
     border: 2px solid brown;
@@ -109,4 +109,47 @@ body{
     color: brown;
     padding: 0 16px;
     margin: 58px 14px 0 14px;
+}
+.project-container h4{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #5a4000;
+    font-weight: bold;
+}
+
+.project-container{
+    margin-left: 100px;
+}
+.costs{
+    margin-top: 1000px;
+}
+.costs h3{
+    text-align: center;
+    font-size: 22px;
+    color: #5a4000;
+    font-weight: bold;
+}
+.costs-container{
+    margin-left: 386px;
+}
+.costs-container h4{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5a4000;
+    font-weight: bold;
+}
+.costs-container select{
+    height: 40px;
+    text-align: center;
+    border: 2px solid brown;
+    background: none;
+    border-radius: 5px;
+    color: brown;
+    padding: 0 16px;
+    margin: 20px 14px 0 14px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background: url("/src/img/foot.jpg");
 }
